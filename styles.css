@@ -1,0 +1,68 @@
+html {
+  font-family: 'Comic Sans MS';
+  background-image: url('http://www.computomata.com/assets/img/consultants/smallberg.jpg');
+  
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  color: green;
+  background-color: orange;
+}
+
+nav {
+  background-color: pink;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  margin: 2px;
+  transition: 0.3s all;
+}
+
+nav ul li a:hover {
+  background-color: lightgreen;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(241, 252, 22, 0.5);
+  margin: 0 75px 0 75px;
+  transition: 0.2s all;
+  flex-direction: column;
+}
+
+.flexbox:hover {
+  background-color: rgba(241, 252, 22);
+  
+}
+
+figcaption {
+  text-align: center;
+}
+
+
+p {
+  text-align: center;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+}
